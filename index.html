@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Udemy</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <a  href="./index.html"> <img src="./images/logo.svg" alt="logo" width="91" height="34" /></a>
+        <ul class="List">
+          <li><a href="#">Categories</a></li>
+        </ul>
+        <div class="search">
+          <button class="searchbtn"><i class="fa-solid fa-magnifying-glass" style="color: #000000"></i></button>
+          <input type="text" placeholder="Search for anything" class="searchbar" />
+        </div>
+        <ul class="List">
+          <li><a href="#">Udemy Business</a></li>
+          <li><a href="#">Teach on Udemy</a></li>
+        </ul>
+        <a href="#"
+          ><i class="fa-solid fa-cart-plus cartIcon" style="color: #000000"></i
+        ></a>
+        <a href="./login.html"><button class="Login">Log In</button></a>
+        <a href="./signup.html"><button class="SignUp">Sign Up</button></a>
+        <button class="Lang">
+          <i class="fa-solid fa-globe" style="color: #000000"></i>
+        </button>
+      </div>
+      <div class="section1">
+        <div class="hero-content">
+        <img src="./images/About.png1.jpg" alt="Hero">
+       <div class="hero-text"> 
+        <h1>Learning that gets you</h1>
+        <p>Skills for your present (and your future). Get started with us.</p>
+        </div>
+        </div>
+        </div>
+        <div class="section2">
+            <div class="partner">
+               <h2>Trusted by over 14,400 companies and millions of learners around the world</h2>
+               <div class="partner-log">
+                <img src="./images/About.png1 (1).svg" alt="">
+                <img src="./images/About.png1 (2).svg" alt="">
+                <img src="./images/About.png1 (3).svg" alt="">
+                <img src="./images/About.png1 (4).svg" alt="">
+                <img src="./images/About.png1 (5).svg" alt="">
+                <img src="./images/About.png1 (6).svg" alt="">
+                <img src="./images/About.png1.svg" alt="">
+                <img src="./images/About.png1 (8).svg" alt="">
+               </div>
+            </div>
+        </div>
+        <div class="section3">
+         <div class="inner-div1">
+          <h2>A broad selection of courses</h2>
+          <p>Choose from over 210,000 online video courses with new additions published every month
+            <ul>
+              <li>Python</li>
+              <li>Excel</li>
+              <li>Web Development</li>
+              <li>JavaScript</li>
+              <li>Data Science</li>
+              <li>Amazon AWS</li>
+              <li>Drawing</li>
+            </ul>
+          </p>
+         </div>
+          <div class="inner-div2">
+            <div class="course-cardBoard">
+              <h1>Expand your career opportunities with Python</h1>
+              <p>Take one of Udemy's range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to</p>
+              <button class="Explore">Explore Python</button>
+              <div class="box-card">
+                <div class="card1">
+                  <img src="./images/About.png1 (6).jpg" alt="">
+                  <h4>The Complete Python Bootcamp From 
+                    Zero to Hero..
+                    <div class="inner-box-details"></div>
+                  </h4>
+                  <p>Jose Portilla</p>
+                  <p class="price">Rs.449</sp>
+                </div>
+                <div class="card1">
+                  <img src="./images/About.png1 (1).jpg" alt="">
+                  <h4>The Complete Python Bootcamp From 
+                    Zero to Hero..
+                  </h4>
+                  <div class="inner-box-details"></div>
+                  <p>Jose Portilla</p>
+                  <p class="price">Rs.449</sp>
+                </div>
+                <div class="card1">
+                  <img src="./images/About.png1 (2).jpg" alt="">
+                  <h4>The Complete Python Bootcamp From 
+                    Zero to Hero..
+                  </h4>
+                  <div class="inner-box-details"></div>
+                  <p>Jose Portilla</p>
+                  <p class="price">Rs.449</sp>
+                </div>
+                <div class="card1">
+                  <img src="./images/About.png1 (3).jpg" alt="">
+                  <h4>The Complete Python Bootcamp From 
+                    Zero to Hero..
+                  </h4>
+                  <div class="inner-box-details"></div>
+                  <p>Jose Portilla</p>
+                  <p class="price">Rs.449</sp>
+                </div>
+                <div class="card1">
+                  <img src="./images/About.png1 (5).jpg" alt="">
+                  <h4>The Complete Python Bootcamp From 
+                    Zero to Hero..
+                  </h4>
+                  <div class="inner-box-details"></div>
+                  <p>Jose Portilla</p>
+                  <p class="price">Rs.449</sp>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section4">
+          <div class="outer-box">
+            <button class="previousbtn" onclick="prevSlide()"><i class="fas fa-chevron-left" style="color: #000000;"></i></button>
+            <button  class="nextbtn"  onclick="nextSlide()"  ><i class="fas fa-chevron-right" style="color: #000000;"></i></button>
+            <div class="box-header"><h2>How learners like you are achieving their goals</h2></div>
+            <div class="inner-box">
+            <div class="box-container">
+              <div class="box1"></div>
+              <div class="box1"></div>
+              <div class="box1"></div>
+              <div class="box1"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="section5">
+          <div class="course-cardBoardSec5">
+            <h1>Learners are viewing</h1>
+            <div class="box-card">
+              <div class="card1">
+                <img src="./images/About.png1 (6).jpg" alt="">
+                <h4>The Complete Python Bootcamp From 
+                  Zero to Hero..
+                  <div class="inner-box-details"></div>
+                </h4>
+                <p>Jose Portilla</p>
+                <p class="price">Rs.449</sp>
+                <p class="bstseller">Bestseller</p>
+              </div>
+              <div class="card1">
+                <img src="./images/About.png1 (1).jpg" alt="">
+                <h4>The Complete Python Bootcamp From 
+                  Zero to Hero..
+                </h4>
+                <div class="inner-box-details"></div>
+                <p>Jose Portilla</p>
+                <p class="price">Rs.449</sp>
+                  <p class="bstseller">Bestseller</p>
+              </div>
+              <div class="card1">
+                <img src="./images/About.png1 (2).jpg" alt="">
+                <h4>The Complete Python Bootcamp From 
+                  Zero to Hero..
+                </h4>
+                <div class="inner-box-details"></div>
+                <p>Jose Portilla</p>
+                <p class="price">Rs.449</sp>
+                  <p class="bstseller">Bestseller</p>
+              </div>
+              <div class="card1">
+                <img src="./images/About.png1 (3).jpg" alt="">
+                <h4>The Complete Python Bootcamp From 
+                  Zero to Hero..
+                </h4>
+                <div class="inner-box-details"></div>
+                <p>Jose Portilla</p>
+                <p class="price">Rs.449</sp>
+                  <p class="bstseller">Bestseller</p>
+              </div>
+              <div class="card1">
+                <img src="./images/About.png1 (5).jpg" alt="">
+                <h4>The Complete Python Bootcamp From 
+                  Zero to Hero..
+                </h4>
+                <div class="inner-box-details"></div>
+                <p>Jose Portilla</p>
+                <p class="price">Rs.449</sp>
+                  <p class="bstseller">Bestseller</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section6">
+         <div class="categories"><h1>Top Categories</h1>
+          <div class="inner-categories-box">
+            <a href="/">
+              <div class="img-wrap">
+                <img src="./images/About.png1 (14).jpg" alt="">
+              </div>
+              <div class="title"><p>Design</p></div>
+            </a>
+            <a href="/">
+              <div class="img-wrap">
+                <img src="./images/About.png1 (13).jpg" alt="">
+              </div>
+              <div class="title"><p>Development</p></div>
+            </a>
+            <a href="/">
+              <div class="img-wrap">
+                <img src="./images/About.png1 (12).jpg" alt="">
+              </div>
+              <div class="title"><p>Marketing</p></div>
+            </a>
+            <a href="/">
+              <div class="img-wrap">
+                <img src="./images/About.png1 (11).jpg" alt="">
+              </div>
+              <div class="title"><p>IT & Softwares</p></div>
+            </a>
+            <a href="/">
+              <div class="img-wrap">
+                <img src="./images/About.png1 (10).jpg" alt="">
+              </div>
+              <div class="title"><p>Personal Development</p></div>
+            </a>
+            <a href="/">
+              <div class="img-wrap">
+                <img src="./images/About.png1 (9).jpg" alt="">
+              </div>
+              <div class="title"><p>Business</p></div>
+            </a>
+            <a href="/">
+              <div class="img-wrap">
+                <img src="./images/About.png1 (8).jpg" alt="">
+              </div>
+              <div class="title"><p>Photography</p></div>
+            </a>
+            <a href="/">
+              <div class="img-wrap">
+                <img src="./images/About.png1 (7).jpg" alt="">
+              </div>
+              <div class="title"><p>Music</p></div>
+            </a>
+          </div>
+        </div>
+        </div>
+        <div class="section7">
+          <div class="features">
+            <h1>Featured topics by category</h1>
+            <div class="feature-list">
+             <div class="list1">
+              <h2>Developement</h2>
+              <a href="/">Python</a>
+              <p>36,354,994 learners</p>
+              <a href="/">Web Development</a>
+              <p>11,415,615 learners</p>
+              <a href="/">Machine</a>
+              <p>70,070,015 learners</p>
+             </div>
+
+             <div class="list1">
+              <h2>Business</h2>
+              <a href="/">Finance Analysis</a>
+              <p>36,354,994 learners</p>
+              <a href="/">SQL</a>
+              <p>11,415,615 learners</p>
+              <a href="/">PMP</a>
+              <p>70,070,015 learners</p>
+             </div>
+
+             <div class="list1">
+              <h2>IT and Software</h2>
+              <a href="/">Amazon AWS</a>
+              <p>36,354,994 learners</p>
+              <a href="/">Ethical Hacking</a>
+              <p>11,415,615 learners</p>
+              <a href="/">Cyber Security</a>
+              <p>70,070,015 learners</p>
+             </div>
+
+             <div class="list1">
+              <h2>Design</h2>
+              <a href="/">PhotoShop</a>
+              <p>36,354,994 learners</p>
+              <a href="/">Graphic Design</a>
+              <p>11,415,615 learners</p>
+              <a href="/">Drawing</a>
+              <p>70,070,015 learners</p>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="section8">
+          <div class="business">
+            <div class="inner-content-left">
+              <img src="./images/About.png1 (10).svg" alt="">
+              <h3>Upskills your team with Udemy Business</h3>
+              <ul>
+                <li>Unlimited access to 25,000 top Udemy
+                  courses,anytime,anywhere
+                </li>
+                <li> International course collection in 14 languages</li>
+                <li>Top certifications in tech and business</li>
+              </ul>
+              <button>Get Udemy Business</button>
+              <button>Learn more</button>
+            </div>
+            <div class="inner-img-right">
+              <img src="./images/About.png1 (15).jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="section9">
+          <div class="customerStories">
+            <div class="customerStoriebox">
+              <div class="customerStrbox">1</div>
+              <!-- <div class="customerStrbox">2</div> -->
+              <!-- <div class="customerStrbox">3</div>
+              <div class="customerStrbox">4</div> -->
+            </div>
+          </div>
+          <!-- <button onclick="PrevSlide()">previous</button>
+          <button onclick="NextSlide()">Next</button> -->
+          <div class="viewMoreStories"><a href="/">View more customer stories <i class="fas fa-angle-right" style="color: #5624d0;"></i> </a></div>
+        </div>
+        <div class="section10">
+          <div class="BecomInstru">
+              <div class="Left-div">
+                <img src="./images/Instructor.jpg" alt="">
+              </div>
+              <div class="Right-div">
+                <h1>Become an Instructor</h1>
+                <p>Instructors from around the world teach millions of learners on Udemy. We provide the tools and skills to teach what you love.</p>
+                <button>Start teaching today</button>
+              </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="inner-footer-content">
+           <div class="footer-list">
+            <ul>
+              <li><a href="/">Udemy</a></li>
+              <li><a href="/">Teach on Udemy</a></li>
+              <li><a href="/">Get the app</a></li>
+              <li><a href="/">About Us</a></li>
+              <li><a href="/">Contact Us</a></li>
+            </ul>
+            
+            <ul>
+              <li><a href="/">Udemy</a></li>
+              <li><a href="/">Teach on Udemy</a></li>
+              <li><a href="/">Get the app</a></li>
+              <li><a href="/">About Us</a></li>
+              <li><a href="/">Contact Us</a></li>
+            </ul>
+            <ul>
+              <li><a href="/">Udemy</a></li>
+              <li><a href="/">Teach on Udemy</a></li>
+              <li><a href="/">Get the app</a></li>
+              <li><a href="/">About Us</a></li>
+              <li><a href="/">Contact Us</a></li>
+            </ul>
+           </div>
+           <div class="footer-lang">
+            <button><i class="fas fa-globe" style="color: #ffffff;"></i>English</button>
+           </div>
+          </div>
+          <div class="footer-logo-copyright">
+            <div class="footer-logo"><img src="./images/whitelogo.svg" alt=""></div>
+          <div class="copyright"><p>© 2023 Udemy, Inc.</p></div>
+          </div>
+        </div>
+      </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

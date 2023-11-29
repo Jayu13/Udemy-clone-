@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./singleCousre.css" />
+    <title>SingleCourse</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <a href="./index.html">
+          <img src="./images/logo.svg" alt="logo" width="91" height="34"
+        /></a>
+        <ul class="List">
+          <li><a href="#">Categories</a></li>
+        </ul>
+        <div class="search">
+          <button class="searchbtn">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+          </button>
+          <input
+            type="text"
+            placeholder="Search for anything"
+            class="searchbar"
+          />
+        </div>
+        <ul class="List">
+          <li><a href="#">Udemy Business</a></li>
+          <li><a href="#">Teach on Udemy</a></li>
+        </ul>
+        <a href="#"
+          ><i class="fa-solid fa-cart-plus cartIcon" style="color: #000000"></i
+        ></a>
+        <a href="./login.html"><button class="Login">Log In</button></a>
+        <a href="./signup.html"><button class="SignUp">Sign Up</button></a>
+        <button class="Lang">
+          <i class="fa-solid fa-globe" style="color: #000000"></i>
+        </button>
+      </div>
+      <div class="singlecourse-hero">
+        <div class="course-details">
+            <span><a href="/">Development  <i class="fas fa-angle-right" style="color: #ffffff;"></i></a></span>
+            <span><a href="/">Web Development  <i class="fas fa-angle-right" style="color: #ffffff;"></i></a></span>
+            <span><a href="/">Web Development</a></span>
+
+            <h1>The Complete 2023 Web Development </br> Bootcamp</h1>
+            <p>Become a Full-Stack Web Developer with just ONE course. HTML,CSS,Javascript,
+            </br> Node,React,PostgreSQL,Web3 and DApps</p>
+            <p class="BestSeller">Bestseller</p>
+            <span style="color: #c0c4f3;">(336,549 rating)  1,118068 students</span>
+            <p class="Author">Created by <span style="color: #c0c4f3;">Dr.Angela Yu</span></p>
+            <p class="Update"><i class="fas fa-pencil-alt" style="color: #ffffff;"></i> Last Update 11/2023 <i class="fas fa-globe" style="color: #ffffff;"></i> English   ,English[Auto],Arabic [Auto],<a href="/">13 more</a></p>
+        </div>
+        <div class="right-div-details">
+          <img src="./images/About.png1 (16).jpg" alt="">
+          <span><button style="color: #2d2f31;" class="btn">Personal</button></span>
+          <span><button class="btn ">Teams</button></span>
+          <hr>
+        </div>
+      </div>
+      <div class="whatlearn">
+        <div class="whatlearnbox">
+          <h2>What you'll learn?</h1>
+            <div class="whatlearnlist">
+              <ul>
+                <li> <i class="fas fa-check" style="color: #2d2f31;"></i>Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.</li>
+                <li> <i class="fas fa-check" style="color: #2d2f31;"></i>After the course you will be able to build ANY website you want.</li>
+                <li> <i class="fas fa-check" style="color: #2d2f31;"></i>Work as a freelance web developer.</li>
+                <li> <i class="fas fa-check" style="color: #2d2f31;"></i>Master backend development with Node</li>
+              </ul>
+              <ul>
+                <li> <i class="fas fa-check" style="color: #2d2f31;"></i>Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.</li>
+                <li> <i class="fas fa-check" style="color: #2d2f31;"></i> After the course you will be able to build ANY website you want.</li>
+                <li> <i class="fas fa-check" style="color: #2d2f31;"></i>Work as a freelance web developer.</li>
+                <li> <i class="fas fa-check" style="color: #2d2f31;"></i>Master backend development with Node</li>
+              </ul>
+            </div>
+        </div>
+        <div class="thisCourseinclude">
+          <h1>This course includes:</h1>
+         <div class="thiscourselist">
+          <ul>
+            <li> <i class="fas fa-tv" style="color: #2d2f31;"></i>62 hours on-demand video</li>
+            <li><i class="fas fa-code" style="color: #2d2f31;"></i>7 coding exercises</li>
+            <li><i class="fas fa-newspaper" style="color: #2d2f31;" ></i>66 articles</li>
+          </ul>
+          <ul>
+            <li> <i class="fas fa-download"  style="color: #2d2f31;"></i>118 downloadable resources</li>
+            <li> <i class="fas fa-mobile-alt"  style="color: #2d2f31;"></i>Access on mobile and TV</li>
+            <li> <i class="fas fa-certificate"  style="color: #2d2f31;"></i>Certificate of completion</li>
+          </ul>
+         </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+         const button = document.querySelectorAll('.btn')
+         button.forEach((buttons) => {
+           buttons.addEventListener('click' , (e)=>{
+             console.log(e.target)
+            button.forEach((btn) => {
+               btn.classList.remove('active')
+             });
+              buttons.classList.add('active')
+          })
+        });
+
+  </script>
+</html>
+ 
